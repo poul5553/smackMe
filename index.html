@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    
+    <meta charset="utf-8"> 
+
+     <!-- Håndter devices med forskellige størrelser --> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Egne CSS --> 
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+    
+
+
+    <title>Java Script - Jquery</title>
+   
+</head> 
+    
+
+<body>
+
+<!-- <h1>javaScript - Jquery</h1> -->
+
+<!-- Opbygning af formular ligger i wrapper -->
+<div class="wrapper">
+
+    
+    
+        <form id="Javascript-1" method="POST">
+                <fieldset> 
+                    <legend> 
+                        Indtast tekst
+                    </legend>
+                    
+        
+                    <Label for="usertext"> 
+                            <Brugertekst:></Brugertekst:> 
+                        </Label>
+                        <input type="text" id="usertext" name="usertext" placeholder="Indtast en tekst"  />
+                    <button id="showInput" type="button" ">Vis input</button>
+        
+        
+                </fieldset>
+        
+        
+            </form>
+
+            <form id="javaScript-2" method="POST">
+                    <fieldset> 
+                        <legend> 
+                            Øvelse i baggrundsfarve
+                        </legend>
+                        
+                            <button type="button" onclick="changeBgColorBlue()">Blå</button>
+                            <button type="button" onclick="changeBgColorRed()">Rød</button>
+                            <button type="button" onclick="changeBgColorWhite()">Hvid</button>
+            
+            
+                    </fieldset>
+            
+            
+                </form>
+
+                <form id="Javascript-3" method="POST"> 
+                        <fieldset> 
+                            <legend> 
+                                Øvelse i baggrundsfarve med varibel
+                            </legend>
+                            
+                                <button type="button"  data-color="blue" ">Blå</button>
+                                <button type="button" data-color="red">Rød</button>
+                                <button type="button" data-color="white" >Hvid</button>
+                                <button type="button" data-color="pink">Pink</button>
+                                <button type="button" data-color="initial">Standard</button>
+                
+                
+                        </fieldset>
+                
+                
+                    </form>
+
+                    <form id="javaScript-4" method="POST">
+                        <fieldset> 
+                            <legend> 
+                                Indtast tekst og vis i et felt 
+                            </legend>
+                            
+                
+                            <Label for="inputtext"> 
+                                    <Inputtekst:></inputtekst:> 
+                                </Label>
+                                <input type="text" id="inputtext" name="inputtext" placeholder="Indtast en tekst"  />
+                            <button type="button" onclick="showInputText">Vis inputtekst</button>
+
+                        </fieldset>
+                
+                
+                    </form>
+
+                    <div id="students">
+
+
+                    </div>
+
+</div>
+
+
+<!-- Jquery bibliotek + egne jquery-kmd -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<script src="./resources/js/script-jq.js"></script>  
+
+
+
+</body>
+</html>
+
