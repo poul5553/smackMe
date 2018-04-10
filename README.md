@@ -1,2 +1,2 @@
-# smackMe
-Nudging and colours with smackMe Theme
+# SMACK ME
+smackMe is a school project about nudging
