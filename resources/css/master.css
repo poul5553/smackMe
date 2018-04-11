@@ -5,6 +5,11 @@
   outline: none;
 }
 
+@font-face {
+  font-family: 'badaboom';
+  src: url('../fonts/BADABB__.ttf') format('truetype');
+}
+
 :root {
   --colorBlack: #000;
   --colorWhite: #FFF;
@@ -13,3 +18,17 @@
   --fontBody: 'open-sans'
 }
 
+img {
+  width: 100%;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-coloum: repeat(12, 1fr);
+  grid-template-row: auto;
+}
+
+nav figure {
+   width: 50px;
+   margin-left: 25px;
+}
