@@ -1,0 +1,70 @@
+/* Header  */
+/* Modal: brug btn, a.btn,  */
+.main-header {
+    margin-left: 4vw; 
+
+}
+
+.main-header h1 {
+    font-family: var(--fontHeading); 
+    width: 15vw; 
+ 
+}
+
+.btn {
+    color: #fff;
+    background: #FF0066;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 4px;
+    transition-duration: .25s;
+    border: none;
+    font-size: 14px;
+  }
+
+a.btn {
+    color: #fff;
+    background: var(--colorRed);
+    padding: .3vw 1vw;
+    display: inline-block;
+    border-radius: 4px;
+    transition-duration: .25s;
+    border: none;
+   
+  }
+
+ 
+  .modal {
+    display: none;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    max-width: 500px;
+    box-sizing: border-box;
+    width: 90%;
+    background: #fff;
+    padding: 3vw 6vw;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .modal a.close-modal {
+    position: absolute;
+    top: -15vh;
+    right: -15vw;
+    display: block;
+    width: 30vw;
+    height: 30vh;
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+  
+  }
+  
+ 
+  
+
+
+
